@@ -52,7 +52,7 @@
                                                 <a href="coming-soon.php">Cooming Soon</a>
                                             </li>
                                             <li>
-                                                <a href="404.html">404 Error</a>
+                                                <a href="404.php">404 Error</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -60,25 +60,25 @@
                                         <a href="#">Shop</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="shop-list.html">Shop 1</a>
+                                                <a href="shop-list.php">Shop 1</a>
                                             </li>
                                             <li>
-                                                <a href="shop-list-nosidebar.html">Shop 2</a>
+                                                <a href="shop-list-nosidebar.php">Shop 2</a>
                                             </li>
                                             <li>
-                                                <a href="product-detail.html">Product Detail 1</a>
+                                                <a href="product-detail.php">Product Detail 1</a>
                                             </li>
                                             <li>
-                                                <a href="product-detail-nosidebar.html">Product Detail 2</a>
+                                                <a href="product-detail-nosidebar.php">Product Detail 2</a>
                                             </li>
                                             <li>
-                                                <a href="shop-cart.html">Shop Cart</a>
+                                                <a href="shop-cart.php">Shop Cart</a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html">Wish List</a>
+                                                <a href="wishlist.php">Wish List</a>
                                             </li>
                                             <li>
-                                                <a href="checkout.html">Check Out</a>
+                                                <a href="checkout.php">Check Out</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -86,21 +86,21 @@
                                         <a href="#">Blog</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="blog-grid-1.html">Blog Grid 1</a>
+                                                <a href="blog-grid-1.php">Blog Grid 1</a>
                                             </li>
                                             <li>
-                                                <a href="blog-grid-2.html">Blog Grid 2</a>
+                                                <a href="blog-grid-2.php">Blog Grid 2</a>
                                             </li>
                                             <li>
-                                                <a href="blog-list.html">Blog List</a>
+                                                <a href="blog-list.php">Blog List</a>
                                             </li>
                                             <li>
-                                                <a href="blog-detail.html">Blog Single</a>
+                                                <a href="blog-detail.php">Blog Single</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

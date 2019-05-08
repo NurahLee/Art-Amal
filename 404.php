@@ -1,4 +1,3 @@
-<?php include("config.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Error 404</title>
     <link rel="icon" type="image/png" href="images/icon/favicon.png">
     <!-- CSS -->
 
@@ -16,8 +15,9 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="vendor/fonts/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/font-face.min.css">
+    <link rel="stylesheet" href="css/font-face.css">
     <!-- Customize -->
+
     <link rel="stylesheet" href="css/theme.css">
 </head>
 
@@ -47,47 +47,13 @@
                                 <img src="images/icon/logo_02.png" alt="Lyrae">
                             </a>
                         </div>
-                        <h2 class="coming-time-title">coming soon</h2>
-                        <div class="coming-down cd100">
-                            <div>
-                                <span data-weeks="36">8</span>weeks
-                            </div>
-                            <div>
-                                <span data-days="17">21</span>days
-                            </div>
-                            <div>
-                                <span data-hours="17">20</span>hours
-                            </div>
-                            <div>
-                                <span data-minutes="50">46</span>mins
-                            </div>
-                            <div>
-                                <span data-seconds="50">46</span>secs
-                            </div>
-                        </div>
-                        <a href="#" class="coming-button">
-                            contact us
-                        </a>
-                        <nav class="social-media style-2">
-                            <ul>
-                                <li>
-                                    <a href="#" class="facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="linkedin"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="google-plus"></a>
-                                </li>
-                            </ul>
-                        </nav>
+                        <h2 class="coming-time-title m-t-85 m-b-20">404 ERROR</h2>
+                        <p class="m-b-8">The page you’re looking for not found!</p>
+                        <a href="#" class="coming-button">back to home</a>
                     </div>
                 </div>
                 <div class="coming-image">
-                    <img src="images/coming-soon.jpg" alt="Lyrae">
+                    <img src="images/error404.jpg" alt="Lyrae">
                 </div>
 
             </div>
@@ -95,7 +61,7 @@
     </section>
     <!-- End Coming Soon -->
 
-      <!-- Footer -->
+    <!-- Footer -->
     <?php include("footer.php"); ?>
     <!-- End Footer -->
 
