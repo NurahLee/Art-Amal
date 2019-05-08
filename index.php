@@ -1,4 +1,4 @@
-<?php //includes("config.php"); ?>
+<?php include("config.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <title><?//=TITLE?></title> -->
+    <title><?=TITLE?></title>
     <link rel="icon" type="image/png" href="images/icon/favicon.ico">
 
     <!-- CSS -->
@@ -41,7 +41,7 @@
     <!-- End Pre Loader -->
 
     <!-- Header -->
-    <?php includes("header.php"); ?>
+    <?php include("header.php"); ?>
     <!-- End Heder -->
 
     <!-- Slider -->
@@ -544,7 +544,7 @@
     <!-- End Latest News -->
 
     <!-- Footer -->
-   <?php includes("footer.php"); ?>
+   <?php include("footer.php"); ?>
     <!-- End Footer -->
 
     <!-- Page Sidebar -->

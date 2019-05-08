@@ -14,7 +14,10 @@
                                         <a href="#">Home</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="index.html">HomePage_v1</a>
+                                                <a href="index.php">HomePage</a>
+                                            </li>
+                                            <li>
+                                                <a href="index_ori.html">HomePage_v1</a>
                                             </li>
                                             <li>
                                                 <a href="index2.html">HomePage_v2</a>
@@ -34,19 +37,19 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <a href="about.php">About</a>
                                     </li>
                                     <li>
                                         <a href="#">page</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="my-account.html">My Account</a>
+                                                <a href="my-account.php">My Account</a>
                                             </li>
                                             <li>
-                                                <a href="forget-password.html">Forget Password</a>
+                                                <a href="forget-password.php">Forget Password</a>
                                             </li>
                                             <li>
-                                                <a href="coming-soon.html">Cooming Soon</a>
+                                                <a href="coming-soon.php">Cooming Soon</a>
                                             </li>
                                             <li>
                                                 <a href="404.html">404 Error</a>
@@ -215,7 +218,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="about.html">About Us</a>
+                            <a href="about.php">About Us</a>
                         </li>
                         <li>
                             <a href="#">Page</a>
