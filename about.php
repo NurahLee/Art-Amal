@@ -43,7 +43,7 @@
     <section>
         <div class="pageintro">
             <div class="pageintro-bg">
-                <img src="images/bg-page_01.jpg" alt="About Us">
+                <img src="images/banner_test.jpg" alt="About Us">
             </div>
             <div class="pageintro-body">
                 <h1 class="pageintro-title">About Us</h1>
