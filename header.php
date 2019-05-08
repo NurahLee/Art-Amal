@@ -11,7 +11,7 @@
                             <nav class="header__navbar">
                                 <ul class="navbar-menu">
                                     <li class="active">
-                                        <a href="#">Home</a>
+                                        <a href="index.php">Home</a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="index.php">HomePage</a>
