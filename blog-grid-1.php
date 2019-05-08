@@ -42,7 +42,7 @@
     <section>
         <div class="pageintro">
             <div class="pageintro-bg">
-                <img src="images/bg-page_03.jpg" alt="About Us">
+                <img src="images/blog_banner.jpg" alt="About Us">
             </div>
             <div class="pageintro-body">
                 <h1 class="pageintro-title">Blog</h1>
