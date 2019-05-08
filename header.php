@@ -12,7 +12,7 @@
                                 <ul class="navbar-menu">
                                     <li class="active">
                                         <a href="index.php">Home</a>
-                                        <ul class="sub-menu">
+                                        <!-- <ul class="sub-menu">
                                             <li>
                                                 <a href="index.php">HomePage</a>
                                             </li>
@@ -34,7 +34,7 @@
                                             <li>
                                                 <a href="index6.html">HomePage_v6</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li>
                                         <a href="about.php">About</a>
