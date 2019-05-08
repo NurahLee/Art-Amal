@@ -53,7 +53,7 @@
                         <div class="tp-caption image" data-x="right" data-y="bottom" data-transform_in="y:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="y:80px;opacity:0;s:300;" data-hoffset="35" data-voffset="[-50,-30,-30,-90]"
                             data-start="500">
-                            <img src="images/slide_08.png" alt="Chair" class="rev-slidebg">
+                            <img src="images/jam.jpg" alt="Chair" class="rev-slidebg">
                         </div>
                         <div class="tp-caption text-uppercase font-weight-light text-black" data-lineheight="50" data-x="left" data-y="center" data-frames='[{"delay":0,"split":"chars","splitdelay":0.05,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                             data-voffset="[-140,-140,-120,-130]" data-width="[650, 600, 600, 400]" data-fontsize="['55', '50', '45', '42']"
