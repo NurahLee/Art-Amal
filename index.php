@@ -63,7 +63,7 @@
                         <div class="tp-caption text-wrap text-black" data-x="left" data-y="center" data-transform_in="x:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-width="[650, 600, 600, 400]" data-transform_out="x:80px;opacity:0;s:300;" data-voffset="[-55,-40,-20,-30]"
                             data-hoffset="['35','60','40','15']" data-fontsize="['15','15','15','18']" data-start="1100">
-                            SHHHHHSIDHISHDISHIDHSIDSIHDSIDS
+                            Assalamualaikum tuan-tuan dan puan-puan. Ini adalah lukisan yang melambangkan something.
                         </div>
                         <div class="tp-caption" data-x="left" data-y="center" data-width="[837, 800, 600, 400]" data-transform_in="y:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="y:80px;opacity:0;s:300;" data-voffset="[83,80,80,90]" data-hoffset="['35','60','40','15']"
