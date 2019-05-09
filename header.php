@@ -43,7 +43,7 @@
                                         <a href="#">page</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="my-account.php">My Account</a>
+                                                <a href="my-account.php">Register</a>
                                             </li>
                                             <li>
                                                 <a href="forget-password.php">Forget Password</a>

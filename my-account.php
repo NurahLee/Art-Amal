@@ -47,14 +47,14 @@
                 <img src="images/bg-page_01.jpg" alt="About Us">
             </div>
             <div class="pageintro-body">
-                <h1 class="pageintro-title">My account</h1>
+                <h1 class="pageintro-title">Register</h1>
                 <nav class="pageintro-breadcumb">
                     <ul>
                         <li>
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">My Account</a>
+                            <a href="#">Register</a>
                         </li>
                     </ul>
                 </nav>
@@ -68,11 +68,11 @@
         <div class="container py-70 py-tn-40">
             <div class="row">
                 <!-- Login -->
-                <div class="col-lg-6 ">
+                <div class="col-lg-4 ">
                     <div class="au-form-body p-r-lg-15 p-r-xl-15">
                         <h2 class="au-form-title form-title-border">Login</h2>
                         <fieldset class="m-t-40">
-                            <form>
+                            <form method="POST" action="my-account.php">
                                 <div class="form-group au-form require">
                                     <label>Username or email address</label>
                                     <input type="text">
@@ -97,19 +97,19 @@
                 </div>
                 <!-- End Login -->
 
-                <!-- Register -->
-                <div class="col-lg-6">
+                <!-- Register Customer-->
+                <div class="col-lg-4">
                     <div class="au-form-body p-r-lg-15 p-r-xl-15">
-                        <h2 class="au-form-title  form-title-border">REGISTER</h2>
+                        <h2 class="au-form-title  form-title-border">REGISTER AS CUSTOMER</h2>
                         <fieldset class="m-t-40">
-                            <form>
+                            <form method="POST" action="my-account.php">
                                 <div class="form-group au-form require">
                                     <label>Email address</label>
-                                    <input type="text">
+                                    <input type="email" name="email">
                                 </div>
                                 <div class="form-group au-form require">
                                     <label>Password</label>
-                                    <input type="password">
+                                    <input type="password" type="password">
                                 </div>
                                 <div class="form-group au-form">
                                     <button type="submit">REGISTER</button>
@@ -119,7 +119,30 @@
                         </fieldset>
                     </div>
                 </div>
-                <!-- End Register -->
+                <!-- End Register Customer-->
+                <!-- Register Artist-->
+                <div class="col-lg-4">
+                    <div class="au-form-body p-r-lg-15 p-r-xl-15">
+                        <h2 class="au-form-title  form-title-border">REGISTER AS ARTIST</h2>
+                        <fieldset class="m-t-40">
+                            <form method="POST" action="my-account.php">
+                                <div class="form-group au-form require">
+                                    <label>Email address</label>
+                                    <input type="email" name="email">
+                                </div>
+                                <div class="form-group au-form require">
+                                    <label>Password</label>
+                                    <input type="password" type="password">
+                                </div>
+                                <div class="form-group au-form">
+                                    <button type="submit">REGISTER</button>
+                                    <div class="w-100 m-t-10 hidden">.</div>
+                                </div>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+                <!-- End Register Artist-->
             </div>
         </div>
     </section>
