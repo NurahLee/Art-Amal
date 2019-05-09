@@ -125,7 +125,7 @@
     <section>
         <div class="container p-t-80 p-b-57 py-tn-40">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box icon-style-1">
                         <div class="icon-image">
                             <div class="icon-thumbnail">
@@ -139,33 +139,33 @@
                             </h3>
                             <div class="icon__text">
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+                                    Your art will be shipped by the artist. So no money required*.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box icon-style-1">
                         <div class="icon-image">
                             <div class="icon-thumbnail">
-                                <img src="images/icon/icon-box_02.png" alt="Icon 1">
+                                <img src="images/icon/hammer2.png" alt="Icon 1" style="width:50%; height:50%;">
                             </div>
                         </div>
                         <div class="icon-body">
                             <h3 class="icon__title">
-                                24/7 SUPPORT
+                                Live Auction
                                 <span class="border-title"></span>
                             </h3>
                             <div class="icon__text">
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+                                    Bid you favourite art. Beat others in the auction by bidding for the highest price!
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="icon-box icon-style-1">
                         <div class="icon-image">
                             <div class="icon-thumbnail">
@@ -184,7 +184,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -200,7 +200,7 @@
                             <img src="images/product_18.png" alt="product" class="tn-100">
                         </div>
                         <div class="product-body">
-                            <a href="#" class="name">Sofa</a>
+                            <a href="#" class="name">Art</a>
                             <div class="number-product">10 Products</div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                             <img src="images/product_20.png" alt="product" class="tn-100">
                         </div>
                         <div class="product-body">
-                            <a href="#" class="name">Decor</a>
+                            <a href="#" class="name">Scuplture</a>
                             <div class="number-product">20 Products</div>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
         <div class="port-body p-t-35 p-b-15">
             <div class="container">
                 <div class="grid">
-                    <div class="grid-filter">
+                    <!-- <div class="grid-filter">
                         <ul class="text-center">
                             <li class="active">
                                 <span data-filter="*">All</span>
@@ -317,9 +317,9 @@
                                 <span data-filter=".lamp">lamp</span>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="grid-body row" data-layout="fitRows">
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item">
+                        <!-- <div class="col-lg-3 col-md-4 col-sm-6 grid-item">
                             <div class="banner">
                                 <div class="banner__image">
                                     <img src="images/saleoff_09.jpg" alt="sale off">
@@ -333,106 +333,27 @@
                                     <a href="#">Shop now</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item decor">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/product_23.png" alt="Chair">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
+                        </div> -->
+                        <?php 
+                            $query = "SELECT * FROM art";
+                            $result = $conn->query($query);
+                        ?>
+                        <?php while($row = mysqli_fetch_array($result)){ ?>
+                            <div class="col-lg-3 col-md-4 col-sm-6 grid-item decor">
+                                <div class="grid-product">
+                                    <div class="image bg-lightblue">
+                                        <a href="product-detail-nosidebar.php">
+                                            <img src="images/gajah.png" alt="Chair" style="height:70%; width:70%;">
+                                        </a>
+                                        <div class="addcart">
+                                            <a href="#">Add to cart</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <a href="#" class="name">Oden Basaket</a>
-                                <div class="price">$23.00</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item lamp">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/product_06.png" alt="Chair">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
-                                    </div>
-                                </div>
-                                <a href="#" class="name">High Table</a>
-                                <div class="price">$15.00</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item chair">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/product_07.png" alt="Lamp">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
-                                    </div>
-                                </div>
-                                <a href="#" class="name">Pendant Shade</a>
-                                <div class="price">$56.00</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item">
-                            <div class="banner">
-                                <div class="banner__image">
-                                    <img src="images/saleoff_08.jpg" alt="sale off">
-                                </div>
-                                <div class="banner__inner banner-style-4">
-                                    <p>
-                                        On sale
-                                        <br>
-                                        <span>Sale off 30%</span>
-                                    </p>
-                                    <a href="#">Shop now</a>
+                                    <a href="#" class="name"><?=$row['art_Name'];?></a>
+                                    <div class="price">RM<?=$row['art_Price'];?></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item decor">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/product_09.png" alt="Lamp">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
-                                    </div>
-                                </div>
-                                <a href="#" class="name">Minimal Wall</a>
-                                <div class="price">$18.00</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item lamp">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/saleoff_03.png" alt="Lamp">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
-                                    </div>
-                                </div>
-                                <a href="#" class="name">Portable Speaker</a>
-                                <div class="price">$42.00</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 grid-item decor">
-                            <div class="grid-product">
-                                <div class="image bg-lightblue">
-                                    <a href="#">
-                                        <img src="images/product_11.png" alt="Lamp">
-                                    </a>
-                                    <div class="addcart">
-                                        <a href="#">Add to cart</a>
-                                    </div>
-                                </div>
-                                <a href="#" class="name">Portable Speaker</a>
-                                <div class="price">$42.00</div>
-                            </div>
-                        </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>
@@ -441,7 +362,7 @@
     <!-- End Grid Product -->
 
     <!-- Newsletter -->
-    <section>
+    <!-- <section>
         <div class="newsletter">
             <div class="bg-left">
                 <img src="images/image_01.png" alt="left">
@@ -467,7 +388,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Newsletter -->
 
     <!-- Latest News -->

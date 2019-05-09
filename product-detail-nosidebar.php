@@ -64,6 +64,10 @@
     <!-- End Page Title -->
 
     <!-- Product Detail -->
+    <?php 
+        // $query = "SELECT * FROM art";
+        // $result = $conn->query($query);
+    ?>
     <section>
         <div class="container p-b-90 p-t-100">
             <div class="row">
@@ -132,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="product-body">
-                                <h3 class="name">Cloud Wall Clock</h3>
+                                <h3 class="name">wwwwww</h3>
                                 <p class="price">$35.00</p>
                                 <p class="product-color">
                                     <span class="color beige"></span>

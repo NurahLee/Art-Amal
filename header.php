@@ -40,8 +40,8 @@
                                         <a href="about.php">About</a>
                                     </li>
                                     <li>
-                                        <a href="#">page</a>
-                                        <ul class="sub-menu">
+                                        <a href="#">Log in</a>
+                                        <!-- <ul class="sub-menu">
                                             <li>
                                                 <a href="my-account.php">Register</a>
                                             </li>
@@ -54,17 +54,17 @@
                                             <li>
                                                 <a href="404.php">404 Error</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li>
-                                        <a href="#">Shop</a>
+                                        <a href="shop-list-nosidebar.php">Gallery</a>
                                         <ul class="sub-menu">
-                                            <li>
+                                            <!-- <li>
                                                 <a href="shop-list.php">Shop 1</a>
                                             </li>
                                             <li>
                                                 <a href="shop-list-nosidebar.php">Shop 2</a>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a href="product-detail.php">Product Detail 1</a>
                                             </li>
@@ -82,7 +82,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#">Blog</a>
                                         <ul class="sub-menu">
                                             <li>
@@ -98,7 +98,7 @@
                                                 <a href="blog-detail.php">Blog Single</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="contact.php">Contact</a>
                                     </li>
@@ -195,8 +195,8 @@
                 <nav class="header-mobile__navbar">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
+                            <a href="index.php">Home</a>
+                            <!-- <ul class="sub-menu">
                                 <li>
                                     <a href="index.html">Homepage_v1</a>
                                 </li>
@@ -215,7 +215,7 @@
                                 <li>
                                     <a href="index6.html">Homepage_v6</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li>
                             <a href="about.php">About Us</a>
