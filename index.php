@@ -58,12 +58,12 @@
                         <div class="tp-caption text-uppercase font-weight-light text-black" data-lineheight="50" data-x="left" data-y="center" data-frames='[{"delay":0,"split":"chars","splitdelay":0.05,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                             data-voffset="[-140,-140,-120,-130]" data-width="[650, 600, 600, 400]" data-fontsize="['55', '50', '45', '42']"
                             data-hoffset="['35','60','40','15']" data-start="900">
-                            New Apple. Just like old one.
+                            We Don't do that here.
                         </div>
                         <div class="tp-caption text-wrap text-black" data-x="left" data-y="center" data-transform_in="x:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-width="[650, 600, 600, 400]" data-transform_out="x:80px;opacity:0;s:300;" data-voffset="[-55,-40,-20,-30]"
                             data-hoffset="['35','60','40','15']" data-fontsize="['15','15','15','18']" data-start="1100">
-                            We have been creating every possibilities to make our iPhones look the same like previous models.
+                            Evacuate the city. Engage all defences. And get this man a shield.
                         </div>
                         <div class="tp-caption" data-x="left" data-y="center" data-width="[837, 800, 600, 400]" data-transform_in="y:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="y:80px;opacity:0;s:300;" data-voffset="[83,80,80,90]" data-hoffset="['35','60','40','15']"
@@ -74,12 +74,12 @@
                     <li data-transition="fade">
                         <div class="tp-caption image slide-image" data-x="right" data-y="bottom" data-transform_in="y:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="y:80px;opacity:0;s:300;" data-hoffset="35" data-voffset="[-50,30,30,-120]" data-start="500">
-                            <img src="images/slide_09.png" alt="Chair" class="rev-slidebg">
+                            <img src="images/mario.png" alt="Chair" class="rev-slidebg">
                         </div>
                         <div class="tp-caption text-uppercase font-weight-light text-black" data-x="left" data-y="center" data-lineheight="50" data-frames='[{"delay":0,"split":"chars","splitdelay":0.05,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                             data-voffset="[-140,-140,-120,-100]" data-width="[650, 600, 600, 400]" data-fontsize="['55', '50', '45', '42']"
                             data-hoffset="['35','60','40','15']" data-start="900">
-                            Grigory Table Lamp
+                            i'm mario.
                         </div>
                         <div class="tp-caption text-wrap text-black" data-x="left" data-y="center" data-transform_in="x:80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="x:80px;opacity:0;s:300;" data-width="[650, 600, 600, 400]" data-voffset="[-55,-40,-20,20]"
@@ -96,7 +96,7 @@
                     <li data-transition="fade">
                         <div class="tp-caption image" data-x="right" data-y="bottom" data-transform_in="y:-80px;opacity:0;s:800;e:easeInOutCubic;"
                             data-transform_out="y:-80px;opacity:0;s:300;" data-hoffset="35" data-voffset="[-50,30,30,-120]" data-start="500">
-                            <img src="images/slide_10.png" alt="Slide 10" class="rev-slidebg">
+                            <img src="images/gajah.png" alt="Slide 10" class="rev-slidebg">
                         </div>
                         <div class="tp-caption text-uppercase font-weight-light text-black" data-x="left" data-y="center" data-lineheight="50" data-frames='[{"delay":0,"split":"chars","splitdelay":0.05,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                             data-voffset="[-140,-140,-120,-100]" data-width="[650, 600, 600, 400]" data-fontsize="['55', '50', '45', '42']"
