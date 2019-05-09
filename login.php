@@ -74,14 +74,14 @@
                         <div class="au-form-body p-r-lg-15 p-r-xl-15">
                             <h2 class="au-form-title form-title-border">Login</h2>
                             <fieldset class="m-t-40">
-                                <form method="POST" action="my-account.php">
+                                <form method="POST" action="login.inc.php">
                                     <div class="form-group au-form require">
-                                        <label>Username or email address</label>
-                                        <input type="text">
+                                        <label>Email address</label>
+                                        <input type="text" name="email">
                                     </div>
                                     <div class="form-group au-form require">
                                         <label>Password</label>
-                                        <input type="password">
+                                        <input type="password" name="password">
                                     </div>
                                     <div class="form-group au-form">
                                         <button type="submit" name="login">Login</button>
