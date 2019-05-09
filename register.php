@@ -25,31 +25,6 @@
     <link rel="stylesheet" href="css/theme.css">
 </head>
 
-<?php
-
-    if(isset($_POST['register'])){
-
-        $name     = $_POST['name'];
-        $email    = $_POST['email'];
-        $password = $_POST['password'];
-        $pNumber  = $_POST['pNumber'];
-        $uType    = $_POST['uType'];
-        $date     = date("Y/m/d");
-
-        if($uType == "Customer"){
-
-            $query  = "INSERT INTO customer(cust_Name, cust_Email, cust_Password, cust_PhoneNum, cust_DateAdd)
-                    VALUES ('$name', '$email', md5('$password'), '$pNumber', '$date')";
-            $stmt   = $conn->query($query);        
-        } else {
-            $query  = "INSERT INTO artist(artist_Name, artist_Email, artist_Password, artist_PhoneNum, artist_DateAdd)
-                    VALUES ('$name', '$email', md5('$password'), '$pNumber', '$date')";
-            $stmt   = $conn->query($query);
-        }
-    }
-
-?>
-
 <body>
 
     <!-- Preloader -->
@@ -99,7 +74,7 @@
                         <div class="au-form-body p-r-lg-15 p-r-xl-15">
                             <h2 class="au-form-title form-title-border">Register</h2>
                             <fieldset class="m-t-40">
-                                <form method="POST" action="register.php">
+                                <form method="POST" action="includes/register.inc.php">
                                     <div class="form-group au-form require">
                                         <label>Full Name</label>
                                         <input type="text" name="name" required>
@@ -112,10 +87,10 @@
                                         <label>Password</label>
                                         <input type="password" name="password" required>
                                     </div>
-                                    <!-- <div class="form-group au-form require">
+                                    <div class="form-group au-form require">
                                         <label>Confirm password</label>
-                                        <input type="password" name="">
-                                    </div> -->
+                                        <input type="password" name="rpassword">
+                                    </div>
                                     <div class="form-group au-form require" required>
                                         <label>Phone Number</label>
                                         <input type="tel" name="pNumber" pattern="[0-9]{3}-[0-9]{3} [0-9]{4,5}" placeholder="000-000 0000">
