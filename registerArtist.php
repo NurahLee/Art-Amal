@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register As Customer</title>
+    <title>Register As Artist</title>
     <link rel="icon" type="image/png" href="images/icon/favicon.ico">
 
     <!-- CSS -->
@@ -72,7 +72,7 @@
                     <!-- Login -->
                     <div class="col-lg-6 ">
                         <div class="au-form-body p-r-lg-15 p-r-xl-15">
-                            <h2 class="au-form-title form-title-border">Register as customer</h2>
+                            <h2 class="au-form-title form-title-border">Register as artist</h2>
                             <fieldset class="m-t-40">
                                 <form method="POST" action="includes/register.inc.php">
                                     <div class="form-group au-form require">
@@ -103,7 +103,7 @@
                                         </select>
                                     </div> -->
                                     <div class="form-group au-form">
-                                        <button type="submit" name="registerCust">Register</button>
+                                        <button type="submit" name="registerArt">Register</button>
                                     </div>
                                 </form>
                             </fieldset>

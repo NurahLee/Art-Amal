@@ -6,11 +6,11 @@
                     <div class="container">
                         <div class="header-main">
                             <div class="header__logo">
-                                <img src="images/icon/logo_02.png" alt="Lyrae">
+                                <img src="images/icon/logo_02.png" alt="Art Amal">
                             </div>
                             <nav class="header__navbar">
                                 <ul class="navbar-menu">
-                                    <li class="active">
+                                    <li <?php if(basename($_SERVER['PHP_SELF'])=="index.php") echo 'class="active"'; ?>>
                                         <a href="index.php">Home</a>
                                         <!-- <ul class="sub-menu">
                                             <li>
@@ -36,27 +36,7 @@
                                             </li>
                                         </ul> -->
                                     </li>
-                                    <li>
-                                        <a href="about.php">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Log in</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li>
-                                                <a href="my-account.php">Register</a>
-                                            </li>
-                                            <li>
-                                                <a href="forget-password.php">Forget Password</a>
-                                            </li>
-                                            <li>
-                                                <a href="coming-soon.php">Cooming Soon</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.php">404 Error</a>
-                                            </li>
-                                        </ul> -->
-                                    </li>
-                                    <li>
+                                    <li <?php if(basename($_SERVER['PHP_SELF'])=="shop-list-nosidebar.php") echo 'class="active"'; ?>>
                                         <a href="shop-list-nosidebar.php">Gallery</a>
                                         <ul class="sub-menu">
                                             <!-- <li>
@@ -82,6 +62,40 @@
                                             </li>
                                         </ul>
                                     </li>
+                                    <li <?php if(basename($_SERVER['PHP_SELF'])=="about.php") echo 'class="active"'; ?>>
+                                        <a href="about.php">About</a>
+                                    </li>
+                                    <li <?php if(basename($_SERVER['PHP_SELF'])=="contact.php") echo 'class="active"'; ?>>
+                                        <a href="contact.php">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.php">Log in</a>
+                                        <!-- <ul class="sub-menu">
+                                            <li>
+                                                <a href="my-account.php">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="forget-password.php">Forget Password</a>
+                                            </li>
+                                            <li>
+                                                <a href="coming-soon.php">Cooming Soon</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.php">404 Error</a>
+                                            </li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="#">Register</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="register.php">Customer</a>
+                                            </li>
+                                            <li>
+                                                <a href="registerArtist.php">Artist</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <!-- <li>
                                         <a href="#">Blog</a>
                                         <ul class="sub-menu">
@@ -99,9 +113,6 @@
                                             </li>
                                         </ul>
                                     </li> -->
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
                                 </ul>
                             </nav>
                             <div class="header__button m-l-35">
@@ -184,7 +195,7 @@
             <div class="header-wrapper-mobile mobile-style-2  d-block d-lg-none">
                 <div class="header-mobile__bar">
                     <div class="header-mobile__logo">
-                        <img src="images/icon/logo_02.png" alt="Lyrae">
+                        <img src="images/icon/logo_02.png" alt="Art Amal">
                     </div>
                     <div class="header-mobile__button">
                         <span class="humburger-box">
