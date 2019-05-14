@@ -50,7 +50,12 @@ if(isset($_POST['registerCust'])){
     } 
     mysqli_stmt_close($stmt);
     mysqli_close($conn);
-} else if (isset($_POST['registerArt'])) {
+} else { 
+    header("Location: ../register.php");
+    exit();
+} 
+
+if(isset($_POST['registerArt'])) {
 
     require "../config.php";
 

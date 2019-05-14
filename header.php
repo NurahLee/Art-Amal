@@ -85,7 +85,7 @@
                                             </li>
                                         </ul> -->
                                     </li>
-                                    <li>
+                                    <li <?php if(basename($_SERVER['PHP_SELF'])=="register.php" || basename($_SERVER['PHP_SELF'])=="registerArtist.php") echo 'class="active"'; ?>>
                                         <a href="#">Register</a>
                                         <ul class="sub-menu">
                                             <li>
@@ -178,11 +178,11 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="header-bar">
+                                    <!-- <li class="header-bar">
                                         <div class="bar-button">
                                             <img src="images/icon/header-bar.png" alt="Bar">
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>

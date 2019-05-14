@@ -121,7 +121,7 @@
     <!-- End Footer -->
 
     <!-- Page Sidebar -->
-    <div class="sidebar">
+    <!-- <div class="sidebar">
         <div class="sidebar__body">
             <div class="sidebar__heading">
                 <div class="logo">
@@ -165,7 +165,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Page Sidebar -->
 
     <!-- back to top -->
