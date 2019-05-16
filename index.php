@@ -343,7 +343,7 @@
                                 <div class="grid-product">
                                     <div class="image bg-lightblue">
                                         <a href="product-detail-nosidebar.php">
-                                            <img src="images/gajah.png" alt="Chair" style="height:70%; width:70%;">
+                                            <img src="images/mario.png" alt="Chair" style="height:70%; width:70%;">
                                         </a>
                                         <div class="addcart">
                                             <a href="#">Add to cart</a>
